@@ -160,7 +160,7 @@ for m in ['unconstrained', 'iso_braking', 'ecbf_qp']:
     plt.suptitle(title_map[m], fontsize=12, fontweight='bold', y=0.98)
     plt.tight_layout()
     
-    # Save a crisp final snapshot figure to disk for Overleaf mapping
+    # Save final snapshot figure to disk for Overleaf mapping
     plt.savefig(f"figures/fig_{m}_trajectory.png", dpi=300)
     print(f"--> Mapped and saved figure layout: figures/fig_{m}_trajectory.png")
     plt.close()
