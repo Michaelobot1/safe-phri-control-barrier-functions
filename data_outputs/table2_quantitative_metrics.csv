@@ -1,0 +1,4 @@
+Control Architecture Strategy,Minimum Safety h(t),Accumulated Path Error,Avg Solve Speed (us)
+UNCONSTRAINED,-0.0036,0.0000,0.00
+ISO_BRAKING,0.0335,0.0053,0.00
+ECBF_QP,0.0296,0.0000,731.39
